@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+.task {
+  display: inline-block;
+  width: 50vw;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+  cursor: pointer;
+}
+.task.done {
+  color: lightgray;
+  text-decoration: line-through;
+}
